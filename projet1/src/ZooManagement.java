@@ -6,11 +6,11 @@ public class ZooManagement {
         int nbrCages = 20;
         String zooName = "my zoo";
 
-        System.out.println("question I :Affichage initial:");
+        System.out.println("question I");
         System.out.println(zooName + " comporte " + nbrCages + " cages");
         System.out.println();
 
-        System.out.println("question II- Saisie utilisateur:");
+        System.out.println("question II : Saisie utilisateur:");
 
         String nomZoo = "";
         while (nomZoo.isEmpty()) {
@@ -43,9 +43,10 @@ public class ZooManagement {
 
         System.out.println();
 
-        System.out.println("Question III - Affichage après modifications:");
+        System.out.println("Question III");
         System.out.println(zooName + " comporte " + nbrCages + " cages" + " :) ");
 
         scanner.close();
     }
+
 }
