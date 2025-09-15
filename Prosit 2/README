@@ -1,0 +1,76 @@
+# Prosit - Gestion de Zoo en Java
+
+## 📋 Description
+Projet de gestion d'un zoo développé en Java suivant une approche de programmation orientée objet (POO). Le projet est développé progressivement à travers une série d'instructions.
+
+## 🎯 Objectifs Pédagogiques
+- Manipulation des classes et attributs en Java
+- Utilisation de Scanner pour l'interaction utilisateur
+- Création et manipulation d'objets
+- Implémentation de constructeurs paramétrés
+- Définition de méthodes d'affichage personnalisées
+
+## 📁 Structure du Projet
+- **ZooManagement.java** - Classe principale
+- **Animal.java** - Classe représentant un animal
+- **Zoo.java** - Classe représentant un zoo
+
+## 🚀 Instructions Implémentées
+
+### ✅ Instruction 1 : Création de la classe principale
+- Classe `ZooManagement` avec variables membres :
+  - `nbrCages = 20` (nombre de cages)
+  - `zooName = "my zoo"` (nom du zoo)
+- Affichage des informations combinées
+
+### ✅ Instruction 2 : Interaction avec l'utilisateur
+- Utilisation de `Scanner` pour la saisie utilisateur
+- Validation des entrées :
+  - `nbrCages` doit être un entier positif
+  - `zooName` doit être une chaîne non vide
+- Gestion des erreurs de saisie
+
+### ✅ Instruction 3 : Affichage des changements
+- Affichage des informations après saisie et validation
+- Message formaté avec le nom et le nombre de cages
+
+### ✅ Instruction 5 : Création des classes
+**Classe Animal :**
+- Attributs : `family`, `name`, `age`, `isMammal`
+- Objets créés : lion, éléphant, girafe, crocodile
+
+**Classe Zoo :**
+- Attributs : `animals[]` (max 25), `name`, `city`, `nbrCages`
+- Création d'objets Zoo avec valeurs initiales
+
+### ✅ Instruction 6 : Constructeurs paramétrés
+- Ajout de constructeurs dans les classes Animal et Zoo
+- Simplification de la création d'objets
+- Réduction du code dans la méthode main
+
+### ✅ Instruction 7 : Création d'objets via constructeurs
+- Résolution des problèmes d'initialisation
+- Création de plusieurs animaux avec la nouvelle approche
+- Utilisation optimale des constructeurs paramétrés
+
+### ✅ Instruction 8 : Méthode displayZoo()
+- Implémentation de `displayZoo()` dans la classe Zoo
+- Affichage : nom du zoo, ville, nombre de cages
+- Démonstration de l'affichage direct d'objets
+- Observation du comportement par défaut de `toString()`
+
+### ✅ Instruction 9 : Méthode toString()
+- Redéfinition de `toString()` dans les classes Zoo et Animal
+- Affichage formaté et lisible des objets
+- Résolution de l'affichage des références mémoire
+
+## 🛠️ Technologies Utilisées
+- **Langage** : Java
+- **Concepts POO** : Classes, objets, encapsulation, constructeurs, méthodes
+- **Outils** : Scanner pour l'I/O, tableaux d'objets
+
+## 🖥️ Exécution
+
+### Compilation
+```bash
+javac ZooManagement.java
