@@ -11,7 +11,7 @@ public class Zoo {
         this.animals = new Animal[25];
     }
 
-    public void displayZoo() {
+    void displayZoo() {
         System.out.println("Nom du zoo: " + name);
         System.out.println("Ville: " + city);
         System.out.println("Nombre de cages: " + nbrCages);
@@ -25,4 +25,5 @@ public class Zoo {
                 ", nbrCages=" + nbrCages +
                 '}';
     }
+
 }
